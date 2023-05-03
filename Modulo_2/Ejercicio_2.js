@@ -22,3 +22,18 @@ const book = {
 //LISTA
 const lista2 = [nombre, age, dev, birth, book];
 console.log (lista2);
+
+//SOLUCION PROPUESTA POR EL PROFESOR
+
+const lista = [
+  "Gorka",
+  34,
+  true,
+  new Date(1987, 10, 20),
+  { 
+      titulo: "El monje que vendió su Ferrari",
+      autor: "Robin S. Sharma",
+      fecha: new Date(1996, 0, 1),
+      url: "https://www.amazon.es/dp/B0062XBS32/"
+    },
+];
