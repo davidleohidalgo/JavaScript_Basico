@@ -29,7 +29,7 @@ let letraDos = (estudiante.charAt(12))
 console.log(letraDos)
 
 //- Una cadena de texto que elimine los espacios de la variable "estudiante"
-let sinEspacio = (estudiante.trim())
+let sinEspacio = (estudiante.replace(/ /g, ""))
 console.log (sinEspacio)
 
 //- Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
