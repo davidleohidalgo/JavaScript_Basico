@@ -15,3 +15,5 @@ console.log(metrosUp.toFixed(0))
 let kilogramosDown = pesokg
 console.log(kilogramosDown.toPrecision(4))
 //Una variable que contenga si "el máximo valor que se puede obtener en Javascript + 1" es igual al máximo valor que se puede obtener en Javascript
+const sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE
+console.log(sonIguales)
